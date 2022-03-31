@@ -1,0 +1,54 @@
+#language: pt
+#encoding: utf-8
+
+android:
+  calculadora:
+    campo_cep_origem:
+      tipo: 'ID'
+      value: 'originPostcode'
+
+    campo_formato:
+      tipo: 'ID'
+      value: 'object_format'
+    campo_formato_caixa:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[1]'
+    campo_formato_rolo:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[2]'
+    campo_formato_envelope:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[3]'
+
+    campo_peso:
+      tipo: 'ID'
+      value: 'weight'
+    campo_peso_9:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[11]'
+    campo_peso_3:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[5]'
+    campo_peso_300:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[2]'
+    
+    campo_altura:
+      tipo: 'ID'
+      value: 'packageHeight'
+    campo_largura:
+      tipo: 'ID'
+      value: 'packageWidth'
+    campo_comprimento:
+      tipo: 'ID'
+      value: 'packageDepth'
+    campo_cep_destino:
+      tipo: 'ID'
+      value: 'destinationPostcode'
+    btn_calcular_frete:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.widget.Button'
+    
+    campo_resultado:
+      tipo: 'XPATH'
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[2]'

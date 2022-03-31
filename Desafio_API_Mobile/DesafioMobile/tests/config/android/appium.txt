@@ -1,0 +1,9 @@
+[caps]
+platformName = "android"
+deviceName = "Pixel 3 API 28"
+app = "C:/Users/luqui/AndroidStudioProjects/Emulador/app/build/outputs/apk/debug/Calcular_Frete_Correios_frete_correios.apk"
+autoGrantPermissions = true
+newCommandTimeout = 3600
+[appium_lib]
+wait = 20
+debug = false

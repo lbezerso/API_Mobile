@@ -1,0 +1,13 @@
+source 'http://rubygems.org'
+
+gem 'allure-cucumber'
+gem 'appium_console'
+gem 'appium_lib'
+gem 'cucumber'
+gem 'rake'
+gem 'redcarpet'
+gem 'rspec-expectations'
+gem 'rubocop'
+gem 'selenium-webdriver'
+gem 'test-unit'
+gem 'yard-cucumber'
